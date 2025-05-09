@@ -1,0 +1,7 @@
+.border-right{
+    border-right: 1px solid black;
+    height: 70%;
+}
+.searchContainer{
+    box-shadow: 2px 2px 2px rgb(138, 134, 134);
+}
