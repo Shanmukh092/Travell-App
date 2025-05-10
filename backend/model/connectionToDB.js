@@ -2,6 +2,7 @@ const { v4: uuid } = require('uuid');
 
 const connection = require("../connection/connection")
 const Hotel = require("../model/hotelSchema");
+const Category = require("../model/category-model")
 
 
 let data= [
@@ -909,8 +910,41 @@ let data= [
     },
 ]
 
+const catogeryData = [
+        { id: uuid(), category: "National Parks" },
+        { id: uuid(), category: "Tiny Homes" },
+        { id: uuid(), category: "Farms" },
+        { id: uuid(), category: "Golfing" },
+        { id: uuid(), category: "Island" },
+        { id: uuid(), category: "Campervans" },
+        { id: uuid(), category: "Cabins" },
+        { id: uuid(), category: "Design" },
+        { id: uuid(), category: "Amazing Pools" },
+        { id: uuid(), category: "Lakefront" },
+        { id: uuid(), category: "Surfing" },
+        { id: uuid(), category: "A-frames" },
+        { id: uuid(), category: "Treehouses" },
+        { id: uuid(), category: "Tropical" },
+        { id: uuid(), category: "Bed & Breakfast" },
+        { id: uuid(), category: "Caves" },
+        { id: uuid(), category: "Shared Homes" },
+        { id: uuid(), category: "Earth Homes" },
+        { id: uuid(), category: "Countryside" },
+        { id: uuid(), category: "Luxe" },
+        { id: uuid(), category: "Amazing Views" },
+        { id: uuid(), category: "Castle" },
+        { id: uuid(), category: "Iconic Sites" },
+        { id: uuid(), category: "Historical Homes" },
+]
+
 for(let hotel of data){
     const newHotel = new Hotel(hotel);
     newHotel.save().then(()=>console.log("Data inserted sucessfully"))
     .catch(()=>console.log("Failed to insert data.."))
+}
+
+for(let hotel of catogeryData){
+    const newCatogery = new Category(hotel)
+    newCatogery.save().then(()=>console.log("Data Inserted sucessfully"))
+    .catch("Failed to insert data")
 }

@@ -13,13 +13,13 @@ const NavBar = () => {
           <span className='border-right'></span>
           <span>Add gust</span>
         </div>
-        <span class="material-symbols-outlined p-2 border-1 ml-1 h-10 bg-orange-400 text-white rounded-sm cursor-pointer">search</span>
+        <span className="material-symbols-outlined p-2 border-1 ml-1 h-10 bg-orange-400 text-white rounded-sm cursor-pointer">search</span>
         </div>
         <div className='mr-5'>
           <div className='border-1 h-7  rounded-sm flex items-center cursor-pointer
           hover:shadow'>
             <span className="material-symbols-outlined  rounded-sm">menu</span>
-            <span class="material-symbols-outlined bg-gray-300">person_2</span>
+            <span className="material-symbols-outlined bg-gray-300">person_2</span>
           </div>
           </div>
       </div>

@@ -1,9 +1,38 @@
 const Hotel = require("../model/hotelSchema")
+const Category = require("../model/category-model")
 
 const getAllHotels = (req, res) => {
-Hotel.find()
-    .then((hotels)=>res.json(hotels))
-    .catch((err)=>res.json({message: "Error fetching hotels", error: err}))
+    const category = req.query.category;
+    console.log(category)
+    if(category!=undefined){
+        Hotel.find({category})
+        .then((category)=>{
+            if(category){
+                res.send({
+                    ok:true,
+                    data:category
+                })
+            }
+            else{
+                res.send({
+                    ok:false,
+                    message:"No hotel is present with given category"
+                })
+            }
+        })
+        .catch(()=>res.send({
+            ok:false,
+            message:"Unable to fetch Data"
+        }))
+    }
+    else{
+        Hotel.find()
+        .then((hotels)=>res.send({
+            ok:true,
+            hotels
+        }))
+        .catch((err)=>res.json({message: "Error fetching hotels", error: err}))
+    }
 }
 
 const getSingleHotel = (req,res)=>{
@@ -12,4 +41,17 @@ const getSingleHotel = (req,res)=>{
     .catch(()=>res.send("failed to fetch data"));
 }
 
-module.exports = {getAllHotels,getSingleHotel}
+const getAllCategories = (req,res)=>{
+    Category.find()
+    .then((data)=>res.send({
+        ok:true,
+        length:data.length,
+        category:data
+    }))
+    .catch(()=>res.send({
+        ok:false,
+        message:"Failed to Fetch Data.."
+    }))
+}
+
+module.exports = {getAllHotels,getSingleHotel,getAllCategories}
