@@ -5,46 +5,51 @@ import { useNavigate,useLocation } from 'react-router-dom'
 import SearchBar from '../search-bar/SearchBar'
 import { useDate } from '../../contex/date-contex/DateContex'
 import { useAuth } from '../../contex/auth-contex/AuthProvider'
+import { useActions } from '../../contex/user-actions.jsx/ActionProvider'
+// import { useLocation } from "react-router-dom";
 const NavBar = () => {
   const contex = useDate()
+  const location = useLocation();
+  const {actionDispatch} = useActions()
   if(!contex) return null;;
   const {checkInDate,checkOutDate,isSearchOpen,dateDispatch,destination,guests} = contex
-  const {name,authDispatch} = useAuth()
-  console.log(name)
+  const {name,authDispatch,isLoggedIn} = useAuth()
   function heandleSearchClick(e){
     e.stopPropagation()
     dateDispatch({
       type:"OPEN_SEARCH",
     })
   }
-  const location = useLocation()
+  function closeAll(e){
+    console.log(location)
+      actionDispatch({
+        type:"CLEAR",
+      })
+      dateDispatch({
+        type:"CLOSE"
+      })
+  }
+  function handleActions(e){
+    if(!isLoggedIn){
+      dateDispatch({
+        type:"USER",
+      })
+      e.stopPropagation()
+      return
+    }
+    if(e.target.innerText=="menu"){
+      actionDispatch({
+        type:"MENU"
+      })
+      e.stopPropagation()
+      return
+    }
+    actionDispatch({
+      type:"DETAILS"
+    })
+    e.stopPropagation()
+  }
   const navigate = useNavigate()
-  // if(location.pathname!='/'){
-  //   return (
-  //     <header >
-  //     <div className='flex justify-between h-16 items-center'> 
-  //       <span onClick={()=>navigate("/")}
-  //        className='ml-5 font-bold text-red-500 text-3xl cursor-pointer'>Travell App</span>
-  //       <div className='flex'>
-  //         <div>
-  //           <input
-  //           className="border p-2 rounded focus:border-blue-600"
-  //           placeholder="Search Destination"/>
-  //         </div>
-  //       <span  
-  //       className="material-symbols-outlined p-2 border-1 ml-1 h-10 bg-orange-400 text-white rounded-sm cursor-pointer">search</span>
-  //       </div>
-  //       <div className='mr-5' >
-  //         <div className='border-1 h-7  rounded-sm flex items-center cursor-pointer
-  //         hover:shadow'>
-  //           <span className="material-symbols-outlined  rounded-sm">menu</span>
-  //           <span className="material-symbols-outlined bg-gray-300">person_2</span>
-  //         </div>
-  //         </div>
-  //     </div>
-  //   </header>
-  //   )
-  // }
   if(checkInDate && checkOutDate){
     var checkInMonth = checkInDate.toString().substring(4, 7); 
     var checkInDay = checkInDate.toString().substring(8, 10);
@@ -52,9 +57,7 @@ const NavBar = () => {
     var checkOutDay = checkOutDate.toString().substring(8, 10);
   }
   return (
-    <header onClick={()=>dateDispatch({
-      type:"CLOSE"
-    })}>
+    <header onClick={(e)=>closeAll(e)}>
       <div className='flex justify-between h-16 items-center'> 
         <span onClick={()=>navigate("/")}
          className='ml-5 font-bold text-red-500 text-3xl cursor-pointer'>Travell App</span>
@@ -75,20 +78,14 @@ const NavBar = () => {
             <div>
               <div>{name?<span className='text-xl font-bold'>Hey,{name}</span>:""}</div>
             </div>
-            <div onClick={
-              (e)=>{
-              dateDispatch({
-                type:"USER",
-              })
-              e.stopPropagation()
-              }
-            }
+            <div onClick={(e)=>handleActions(e)}
             className='border-1 h-7  rounded-sm flex items-center cursor-pointer
             hover:shadow'>
-              <span className="material-symbols-outlined  rounded-sm">menu</span>
+              <span 
+              className="material-symbols-outlined  rounded-sm">menu</span>
               <span className="material-symbols-outlined bg-gray-300">person_2</span>
             </div>
-            {
+            {/* {
               name &&
               <div className='ml-2'>
               <span onClick={()=>authDispatch({
@@ -96,7 +93,7 @@ const NavBar = () => {
               })}
               className='border-1 bg-red-500 text-white p-2 rounded-xl cursor-pointer'>Sign Out</span>
             </div>
-            }
+            } */}
             </div>
           </div>
       </div>

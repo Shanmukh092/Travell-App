@@ -11,11 +11,13 @@ const Card = ({hotel}) => {
   const {isLoggedIn,phone,authDispatch} = useAuth()
   const{id,city,state,name,price,rating,image} = hotel
   let {wishDispatch,wishList} = useWish()
+  // console.log(wishList)
   function handleClick(){
     if(!name.includes("Whispering Pines Cottages")){
       navigate(`/hotels/${name}/${city}-${state}/${id}/reserve`);
     }
   }
+  // console.log(wishList)
   return (
     <div className="w-full max-w-sm mx-auto">
       <div  onClick={()=>handleClick()}
@@ -31,13 +33,14 @@ const Card = ({hotel}) => {
               alert("to add to wishlist you need to ligin first");
               return;
             }
-            const isClassExist = !e.currentTarget.classList.contains('text-red-500');
+            const isClassExist = !wishList.includes(id)
             wishDispatch({
               type:isClassExist?"ADD":"REMOVE",
               payload:id
             })
             console.log(isClassExist)
             wishListHandller(id,phone,isClassExist?"add":"delete",authDispatch);
+            wishListHandller(id,phone,"getAll",authDispatch)
             e.stopPropagation()
           }}
           className={`absolute top-3 right-3 cursor-pointer  text-gray-300 ${wishList.includes(id)?"text-red-500":""} hover:text-red-500 transition-colors duration-200 text-2xl`}

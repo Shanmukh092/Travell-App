@@ -27,7 +27,7 @@ const SearchBar = () => {
   }
     function handleCloseSearch(){
     dateDispatch({
-      type:"CLOSE_SEARCH",
+      type:"CLOSE",
     })
   }
   function handleSearchClick(){

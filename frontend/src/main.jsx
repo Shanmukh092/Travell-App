@@ -8,6 +8,8 @@ import { DateContex } from './contex/date-contex/DateContex.jsx'
 import { FilterProvider } from './contex/filter-contex/FilterProvider.jsx'
 import { AuthProvider } from './contex/auth-contex/AuthProvider.jsx'
 import { WishListProvider } from './contex/wishList-contex/WishListProvider.jsx'
+import { DetailsProvider } from './contex/tripDetails-contex/DetailsProvider.jsx'
+import { ActionProvider } from './contex/user-actions.jsx/ActionProvider.jsx'
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
         <CategoryContex>
@@ -15,7 +17,11 @@ createRoot(document.getElementById('root')).render(
                 <FilterProvider>
                     <AuthProvider>
                         <WishListProvider>
-                            <App/>
+                            <DetailsProvider>
+                                <ActionProvider>
+                                    <App/>
+                                </ActionProvider>
+                            </DetailsProvider>
                         </WishListProvider>
                     </AuthProvider>
                 </FilterProvider>

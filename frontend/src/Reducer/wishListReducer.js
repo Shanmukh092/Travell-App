@@ -1,5 +1,5 @@
 export const wishListReducer = (state,{type,payload})=>{
-    console.log(state.wishList,payload)
+    // console.log(payload)
     switch(type){
         case "ADD":
             const newWish = [...state.wishList,payload]

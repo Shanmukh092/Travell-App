@@ -2,22 +2,50 @@ import React from 'react'
 import { useState,useEffect } from 'react';
 import DateSelector from '../date-picker/DateSelector';
 import { useDate } from '../../contex/date-contex/DateContex';
+import {useAuth} from "../../contex/auth-contex/AuthProvider"
+import { useNavigate } from 'react-router-dom';
+import { useDetails } from '../../contex/tripDetails-contex/DetailsProvider';
 const PriceComponent = ({hotel}) => {
     if(!hotel)  return null
+    const {isLoggedIn} = useAuth()
+    const navigate = useNavigate("/payment")
+    console.log(isLoggedIn)
     const {rating,price,numberOfguest} = hotel
-    const [numberOfDays,setNumberOfDays] = useState(0)
+    // console.log(object)
+    const [numberOfDays,setNumberOfDays] = useState(null)
     const contex = useDate()
+    const {detailsDispatch} = useDetails()
     if(!contex) return null
-    function stripTime(date) {
-        return new Date(date.getFullYear(), date.getMonth(), date.getDate());
-    }
+    // function stripTime(date) {
+    //     return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    // }
     var {checkInDate,checkOutDate,guests} = contex;
-    console.log(checkInDate,checkOutDate)
+    // console.log(checkInDate,checkOutDate)
+    // console.log(checkInDate,checkOutDate)
+    function handleReserveClick(){
+        if(!isLoggedIn){
+            alert("To reserve you need to login first");
+            return;
+        }
+        if(checkInDate==null || !checkOutDate==null){
+            alert("enter check in and check out dates");
+            return;
+        }
+        detailsDispatch({
+            type:"HOTEL",
+            payload:hotel
+        })
+        navigate("/payment")
+    }
     useEffect(() => {
         if (checkInDate && checkOutDate) {
             const diffInTime = checkOutDate - checkInDate;
             const days = diffInTime / (1000 * 60 * 60 * 24);
             days==0?setNumberOfDays(0.5):setNumberOfDays(days)
+            detailsDispatch({
+                type:"DAYS",
+                payload:days
+            })
         }
         else{
             console.log(checkInDate)
@@ -46,7 +74,8 @@ const PriceComponent = ({hotel}) => {
             <p className='text-xl'>{numberOfguest}</p>
         </div>
         <div>
-            <button className='mt-5 h-11 w-full bg-orange-500 cursor-pointer rounded-md'>
+            <button onClick={handleReserveClick}
+            className='mt-5 h-11 w-full bg-orange-500 cursor-pointer rounded-md'>
                 <span className='text-white text-xl'>Reserve</span>
             </button>
         </div>

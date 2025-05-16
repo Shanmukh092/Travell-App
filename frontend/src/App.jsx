@@ -6,6 +6,7 @@ import SingleHotel from './Pages/single-hotel-page/SingleHotel'
 import LoginPage from './authentication/login/LoginPage'
 import RegisterPage from './authentication/Register/RegisterPage'
 import WishList from './Components/wish-list/WishList'
+import Payment from './Pages/payment-page/Payment'
 const App = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const App = () => {
           <Route path='/' element={<Home/>}/>
           <Route path='/hotels/:name/:address/:id/reserve' element={<SingleHotel />} />
           <Route path='/wish-list' element={<WishList/>}/>
+          <Route path='/payment' element={<Payment/>}/>
         </Routes>
       </main>
     </div>
