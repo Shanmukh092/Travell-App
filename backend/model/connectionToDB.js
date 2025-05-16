@@ -908,6 +908,1030 @@ let data= [
         propertyType: "Flat",
         isCancelable: false,
     },
+,{
+    "name": "Whispering Pines Cottages #1",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 3388,
+    "rating": 3.2,
+    "numberOfBathrooms": 1,
+    "numberOfBeds": 1,
+    "numberOfguest": 2,
+    "numberOfBedrooms": 1,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "93f36019-35c6-4c3d-97d6-935d32db9827",
+    "category": "Caves"
+  },
+  {
+    "name": "Whispering Pines Cottages #2",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 1805,
+    "rating": 3.9,
+    "numberOfBathrooms": 2,
+    "numberOfBeds": 4,
+    "numberOfguest": 2,
+    "numberOfBedrooms": 2,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "c3d8df93-afae-4032-9995-c9cefd56c517",
+    "category": "Campervans"
+  },
+  {
+    "name": "Whispering Pines Cottages #3",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 2095,
+    "rating": 3.2,
+    "numberOfBathrooms": 2,
+    "numberOfBeds": 2,
+    "numberOfguest": 4,
+    "numberOfBedrooms": 2,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "63a71010-5fff-46dd-8d38-a256a10b8695",
+    "category": "Surfing"
+  },
+  {
+    "name": "Whispering Pines Cottages #4",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 3343,
+    "rating": 4.7,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 1,
+    "numberOfguest": 7,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "11233a38-a521-41d2-9f80-eca3d1352e86",
+    "category": "Lakefront"
+  },
+  {
+    "name": "Whispering Pines Cottages #5",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 2179,
+    "rating": 3.5,
+    "numberOfBathrooms": 2,
+    "numberOfBeds": 3,
+    "numberOfguest": 4,
+    "numberOfBedrooms": 1,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "17774f28-e501-4ade-a15f-ad35d62f2b59",
+    "category": "Treehouses"
+  },
+  {
+    "name": "Whispering Pines Cottages #6",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 2555,
+    "rating": 3.7,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 1,
+    "numberOfguest": 6,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "425edc57-a3ea-497b-84b1-8a07650c2575",
+    "category": "Luxe"
+  },
+  {
+    "name": "Whispering Pines Cottages #7",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 4137,
+    "rating": 3.0,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 2,
+    "numberOfguest": 8,
+    "numberOfBedrooms": 2,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "8b6e1e2d-4084-4636-bb78-5b11d1a43f28",
+    "category": "Countryside"
+  },
+  {
+    "name": "Whispering Pines Cottages #8",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 2368,
+    "rating": 4.6,
+    "numberOfBathrooms": 1,
+    "numberOfBeds": 4,
+    "numberOfguest": 8,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "232071cc-58e5-47ba-806e-3a3e5d9dd23a",
+    "category": "Lakefront"
+  },
+  {
+    "name": "Whispering Pines Cottages #9",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 2318,
+    "rating": 3.3,
+    "numberOfBathrooms": 1,
+    "numberOfBeds": 3,
+    "numberOfguest": 2,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "7c46fcde-8387-47ab-a82f-4353ca9734c8",
+    "category": "Earth Homes"
+  },
+  {
+    "name": "Whispering Pines Cottages #10",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 3711,
+    "rating": 3.6,
+    "numberOfBathrooms": 2,
+    "numberOfBeds": 3,
+    "numberOfguest": 5,
+    "numberOfBedrooms": 1,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "aa3fa7a6-acaf-49aa-9dc5-3965b9c76937",
+    "category": "Island"
+  },
+  {
+    "name": "Whispering Pines Cottages #11",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 2031,
+    "rating": 4.0,
+    "numberOfBathrooms": 2,
+    "numberOfBeds": 2,
+    "numberOfguest": 7,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "dd14e533-d826-4077-9cd0-b8c192856d7a",
+    "category": "Farms"
+  },
+  {
+    "name": "Whispering Pines Cottages #12",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 4186,
+    "rating": 3.3,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 2,
+    "numberOfguest": 5,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "557031da-cb2f-47e1-8560-06502e2a5cf1",
+    "category": "Treehouses"
+  },
+  {
+    "name": "Whispering Pines Cottages #13",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 4355,
+    "rating": 3.2,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 2,
+    "numberOfguest": 8,
+    "numberOfBedrooms": 2,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "0fa47ee8-a563-4693-b939-b18d0e207121",
+    "category": "Surfing"
+  },
+  {
+    "name": "Whispering Pines Cottages #14",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 2933,
+    "rating": 3.9,
+    "numberOfBathrooms": 2,
+    "numberOfBeds": 2,
+    "numberOfguest": 3,
+    "numberOfBedrooms": 2,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "ed0255ee-aa8f-447a-b935-1be111d5c112",
+    "category": "Campervans"
+  },
+  {
+    "name": "Whispering Pines Cottages #15",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 3235,
+    "rating": 3.4,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 2,
+    "numberOfguest": 2,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "c4128aed-0c9e-4060-b0cb-f5e41c2a1e71",
+    "category": "Surfing"
+  },
+  {
+    "name": "Whispering Pines Cottages #16",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 4516,
+    "rating": 3.3,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 4,
+    "numberOfguest": 6,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "8fb4793e-59f9-485d-a17a-5a9de2b4dc6d",
+    "category": "Lakefront"
+  },
+  {
+    "name": "Whispering Pines Cottages #17",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 4199,
+    "rating": 3.6,
+    "numberOfBathrooms": 2,
+    "numberOfBeds": 4,
+    "numberOfguest": 2,
+    "numberOfBedrooms": 1,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "5969c76a-d1bc-42a7-be40-3dd6e998cca9",
+    "category": "National Parks"
+  },
+  {
+    "name": "Whispering Pines Cottages #18",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 4645,
+    "rating": 5.0,
+    "numberOfBathrooms": 1,
+    "numberOfBeds": 1,
+    "numberOfguest": 2,
+    "numberOfBedrooms": 2,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "2879b924-b218-46af-935e-1caf8f7d169a",
+    "category": "Amazing Views"
+  },
+  {
+    "name": "Whispering Pines Cottages #19",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 2732,
+    "rating": 4.7,
+    "numberOfBathrooms": 2,
+    "numberOfBeds": 4,
+    "numberOfguest": 5,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "74cf0f65-b45a-400d-a84e-fbc874bffbb4",
+    "category": "A-frames"
+  },
+  {
+    "name": "Whispering Pines Cottages #20",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 2338,
+    "rating": 3.8,
+    "numberOfBathrooms": 1,
+    "numberOfBeds": 3,
+    "numberOfguest": 6,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "07015971-a2f3-4686-9b66-cd7a6cafd991",
+    "category": "Bed & Breakfast"
+  },
+  {
+    "name": "Whispering Pines Cottages #21",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 2621,
+    "rating": 4.2,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 2,
+    "numberOfguest": 5,
+    "numberOfBedrooms": 1,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "d1255626-770c-461c-a60b-7981e69f96f7",
+    "category": "Farms"
+  },
+  {
+    "name": "Whispering Pines Cottages #22",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 4763,
+    "rating": 4.7,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 4,
+    "numberOfguest": 6,
+    "numberOfBedrooms": 1,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "c17e5ed8-ffa2-42e3-8fa7-296631a95c60",
+    "category": "Surfing"
+  },
+  {
+    "name": "Whispering Pines Cottages #23",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 4129,
+    "rating": 3.8,
+    "numberOfBathrooms": 2,
+    "numberOfBeds": 4,
+    "numberOfguest": 7,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "30f07e66-453f-4732-b317-dd346fa8cf79",
+    "category": "Lakefront"
+  },
+  {
+    "name": "Whispering Pines Cottages #24",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 4969,
+    "rating": 4.9,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 3,
+    "numberOfguest": 7,
+    "numberOfBedrooms": 3,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "569c4ecc-6347-44e1-95a7-619a24e548cd",
+    "category": "Design"
+  },
+  {
+    "name": "Whispering Pines Cottages #25",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-26117817/original/9da40e3c-5846-4359-bb41-05c27b09a8f5.jpeg?im_w=720",
+    "imageArr": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/fc0129d6-02df-4782-92e9-051a881c67a5.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/694d278e-ff0d-4c08-b549-de3a07313be8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/c3222377-07de-4376-868d-d1b55b06390c.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-578733555164036351/original/8d2a7815-1e0e-4946-8457-8884f5842fff.jpeg?im_w=720"
+    ],
+    "address": "Jibhi",
+    "city": "Banjar Valley",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "price": 3793,
+    "rating": 3.9,
+    "numberOfBathrooms": 3,
+    "numberOfBeds": 2,
+    "numberOfguest": 3,
+    "numberOfBedrooms": 2,
+    "numberOfStudies": 0,
+    "hostName": "Daleep",
+    "hostJoinedOn": "March 2018",
+    "ameneties": [
+      "Kitchen",
+      "Wifi",
+      "Pets Allowed"
+    ],
+    "healthAndSafety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "houseRules": [
+      "Check-in: 12:00 pm - 11:00 pm",
+      "Check out: 11:00 am",
+      "Pets are allowed"
+    ],
+    "propertyType": "Hotel",
+    "isCancelable": true,
+    "id": "fff416c2-037d-40cc-9339-e955efa28e8a",
+    "category": "Amazing Views"}
 ]
 
 const catogeryData = [
@@ -936,7 +1960,6 @@ const catogeryData = [
         { id: uuid(), category: "Iconic Sites" },
         { id: uuid(), category: "Historical Homes" },
 ]
-
 for(let hotel of data){
     const newHotel = new Hotel(hotel);
     newHotel.save().then(()=>console.log("Data inserted sucessfully"))

@@ -6,7 +6,6 @@ const {addWishHandler,deleteWishHandler,getAllWishHandler} = require("../control
 
 
 route.post("/add-wish",addWishHandler)
-
-route.delete("/remove-wish/:id",deleteWishHandler)
+route.post("/remove-wish/:id",deleteWishHandler)
 route.get("/get-all-wish-list-hotels",getAllWishHandler)
 module.exports = route

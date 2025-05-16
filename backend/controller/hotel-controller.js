@@ -3,7 +3,7 @@ const Category = require("../model/category-model")
 
 const getAllHotels = (req, res) => {
     const category = req.query.category;
-    console.log(category)
+    // console.log(category)
     if(category!=undefined){
         Hotel.find({category})
         .then((category)=>{

@@ -1,30 +1,107 @@
 import React from 'react'
 import './NavBar.css'
+import { useState } from 'react'
+import { useNavigate,useLocation } from 'react-router-dom'
+import SearchBar from '../search-bar/SearchBar'
+import { useDate } from '../../contex/date-contex/DateContex'
+import { useAuth } from '../../contex/auth-contex/AuthProvider'
 const NavBar = () => {
+  const contex = useDate()
+  if(!contex) return null;;
+  const {checkInDate,checkOutDate,isSearchOpen,dateDispatch,destination,guests} = contex
+  const {name,authDispatch} = useAuth()
+  console.log(name)
+  function heandleSearchClick(e){
+    e.stopPropagation()
+    dateDispatch({
+      type:"OPEN_SEARCH",
+    })
+  }
+  const location = useLocation()
+  const navigate = useNavigate()
+  // if(location.pathname!='/'){
+  //   return (
+  //     <header >
+  //     <div className='flex justify-between h-16 items-center'> 
+  //       <span onClick={()=>navigate("/")}
+  //        className='ml-5 font-bold text-red-500 text-3xl cursor-pointer'>Travell App</span>
+  //       <div className='flex'>
+  //         <div>
+  //           <input
+  //           className="border p-2 rounded focus:border-blue-600"
+  //           placeholder="Search Destination"/>
+  //         </div>
+  //       <span  
+  //       className="material-symbols-outlined p-2 border-1 ml-1 h-10 bg-orange-400 text-white rounded-sm cursor-pointer">search</span>
+  //       </div>
+  //       <div className='mr-5' >
+  //         <div className='border-1 h-7  rounded-sm flex items-center cursor-pointer
+  //         hover:shadow'>
+  //           <span className="material-symbols-outlined  rounded-sm">menu</span>
+  //           <span className="material-symbols-outlined bg-gray-300">person_2</span>
+  //         </div>
+  //         </div>
+  //     </div>
+  //   </header>
+  //   )
+  // }
+  if(checkInDate && checkOutDate){
+    var checkInMonth = checkInDate.toString().substring(4, 7); 
+    var checkInDay = checkInDate.toString().substring(8, 10);
+    var checkOutMonth = checkOutDate.toString().substring(4, 7); 
+    var checkOutDay = checkOutDate.toString().substring(8, 10);
+  }
   return (
-    <header>
+    <header onClick={()=>dateDispatch({
+      type:"CLOSE"
+    })}>
       <div className='flex justify-between h-16 items-center'> 
-        <div className='ml-5 font-bold text-red-500 text-3xl cursor-pointer'>Travell App</div>
+        <span onClick={()=>navigate("/")}
+         className='ml-5 font-bold text-red-500 text-3xl cursor-pointer'>Travell App</span>
         <div className='flex'>
-        <div className='searchContainer border-1 h-10 rounded-sm w-60 flex justify-center items-center gap-1 cursor-pointer  bg-white'>
-          <span>Any Where</span>
+        <div onClick={(e)=>heandleSearchClick(e) }
+         className={`relative searchContainer border-1 h-10 rounded-sm ${checkInDate && checkOutDate ?"w-[25vw]":"w-90"}  flex justify-between items-center gap-1 cursor-pointer  bg-white`}>
+          <span className='ml-8'>{destination?destination:"Any Where"}</span>
           <span className='border-right'></span>
-          <span>Any Week</span>
+          <span>{checkInDate && checkOutDate?`${checkInMonth} ${checkInDay} - ${checkOutMonth} ${checkOutDay}`:"Any Week"}</span>
           <span className='border-right'></span>
-          <span>Add gust</span>
+          <span className='mr-5'>{guests?guests>1?`${guests} guests`:`${guests} guest` :"Add gust"}</span>
         </div>
-        <span className="material-symbols-outlined p-2 border-1 ml-1 h-10 bg-orange-400 text-white rounded-sm cursor-pointer">search</span>
+        <span  onClick={(e)=>heandleSearchClick(e)}
+        className="material-symbols-outlined p-2 border-1 ml-1 h-10 bg-orange-400 text-white rounded-sm cursor-pointer">search</span>
         </div>
-        <div className='mr-5'>
-          <div className='border-1 h-7  rounded-sm flex items-center cursor-pointer
-          hover:shadow'>
-            <span className="material-symbols-outlined  rounded-sm">menu</span>
-            <span className="material-symbols-outlined bg-gray-300">person_2</span>
-          </div>
+        <div className='mr-5' >
+          <div className='flex gap-5'>
+            <div>
+              <div>{name?<span className='text-xl font-bold'>Hey,{name}</span>:""}</div>
+            </div>
+            <div onClick={
+              (e)=>{
+              dateDispatch({
+                type:"USER",
+              })
+              e.stopPropagation()
+              }
+            }
+            className='border-1 h-7  rounded-sm flex items-center cursor-pointer
+            hover:shadow'>
+              <span className="material-symbols-outlined  rounded-sm">menu</span>
+              <span className="material-symbols-outlined bg-gray-300">person_2</span>
+            </div>
+            {
+              name &&
+              <div className='ml-2'>
+              <span onClick={()=>authDispatch({
+                type:"LOGOUT"
+              })}
+              className='border-1 bg-red-500 text-white p-2 rounded-xl cursor-pointer'>Sign Out</span>
+            </div>
+            }
+            </div>
           </div>
       </div>
-      <hr className='mb-3'/>
     </header>
+
   )
 }
 

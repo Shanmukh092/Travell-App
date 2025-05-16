@@ -1,14 +1,16 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { useCategoryContex } from '../../contex/CategoryContex'
 
-const Category = () => {
+const Category = ({category}) => {
   const [data,setData] = useState([])
   const [allData,setAllData] = useState([])
   const [leftPtr,setLeftPtr] = useState(0)
-  const [rightPtr,setRightPtr] = useState(14)
+  const [rightPtr,setRightPtr] = useState(12)
+  const {setState} = useCategoryContex()
 
   function handleCategoryClick(category){
-    axios.get
+    setState({hotelCategory:category})
   }
   useEffect(()=>{
     axios.get("http://localhost:8080/api/hotels/category")
@@ -18,11 +20,11 @@ const Category = () => {
       setData(arr)
     })
     .catch(()=>console.log("Failed to Fetch Data.."))
+    // console.log(allData.length)
   },[])
-  console.log(allData.length)
   return (
     <>
-      <div className='flex h-16 justify-center gap-3 relative'>
+      <div className='flex h-16 w-[90vw] justify-center gap-3 relative mt-5'>
         <button onClick={()=>{
         setLeftPtr(leftPtr-1)
         setRightPtr(rightPtr-1)
@@ -33,7 +35,8 @@ const Category = () => {
          <div className={`flex flex-wrap w-400  mr-0 `}>
           {
             data.map(item=><span onClick={()=>handleCategoryClick(item.category)}
-               className={`cursor-pointer ${item.category!="Historical Homes"?"mr-9":"mr-0"}`}>{[item.category]}</span>)
+               className={`font-bold ${category==item.category?"underline  decoration-2":""}
+                cursor-pointer ${item.category!="Historical Homes"?"mr-9":"mr-0"}`}>{[item.category]}</span>)
           }
          </div>
          <button

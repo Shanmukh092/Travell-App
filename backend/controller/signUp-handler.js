@@ -1,29 +1,15 @@
 const User = require("../model/user-model")
 const CryptoJS = require("crypto-js")// used to encrypt password
-const isValidEmail = require("../functions/isValidEmail")
-
 const signUpHandler = (req,res)=>{
     const newUser = new User({...req.body,
-        password:CryptoJS.AES.encrypt(req.body.password,process.env.PASSWORD_SECRET_KEY).toString()})
+    password:CryptoJS.AES.encrypt(req.body.password,process.env.PASSWORD_SECRET_KEY).toString()})
     const {email,phone,name} = req.body;
-    if(!phone || phone.length!=10){
-        res.send({
-            ok:false,
-            message:"please enter a valid phone number"
-        })
-    }
-    if(!isValidEmail(email)){
-        res.send({
-            ok:false,
-            message:"please enter a valid email address"
-        })
-    } 
     User.findOne({email})
     .then((user)=>{
         if(user){
             res.send({
                 ok:false,
-                message:`email already exist please use different email or sign in with given ${email}`
+                message:`email already exist pleasb  e use different email or sign in with given ${email}`
             })
         }
         else{
@@ -45,10 +31,6 @@ const signUpHandler = (req,res)=>{
                         ok:false,
                         err:err
                     }))
-                    res.send({
-                        ok:true,
-                        new_user:name
-                    })
                 }
             })
             .catch(()=>res.send({

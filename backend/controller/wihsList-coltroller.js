@@ -14,7 +14,6 @@ const addWishHandler = (req,res)=>{
         else{
             newWish.save()
             .then(()=>{
-                console.log(req.body.hotelId)
                 res.send({
                 ok:true,
                 wishId:req.body.hotelId
@@ -31,8 +30,8 @@ const addWishHandler = (req,res)=>{
 }
 
 const deleteWishHandler = (req,res)=>{
-    console.log(req.params)
-    Wish.findOne({hotelId:req.params.id})
+    const {accessToken} = req.body
+    Wish.findOne({accessToken})
     .then((hotel)=>{
         if(hotel){
             Wish.deleteOne({hotelId:req.params.id})
@@ -67,18 +66,23 @@ const deleteWishHandler = (req,res)=>{
 }
 
 const getAllWishHandler = (req,res)=>{
-    Wish.find()
-    .then((listOfHotels)=>res.send({
-        ok:true,
-        listOfHotels,
-        message:"Sucessfully fetched data"
-    }))
+    const { phone } = req.query;
+    Wish.find({phone})
+    .then((listOfHotels)=>{
+        let hotels = []
+        for(const hotel of listOfHotels){
+            hotels.push(hotel.hotelId)
+        }
+        res.send({
+            ok:true,
+            listOfHotels:hotels,
+            message:"Sucessfully fetched data"
+        })
+    })
     .catch(()=>res.send({
         ok:false,
         message:"failed to fetch data"
     }))
 }
-
-
 
 module.exports = {addWishHandler,deleteWishHandler,getAllWishHandler}
