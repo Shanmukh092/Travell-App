@@ -60,7 +60,7 @@ const NavBar = () => {
     <header onClick={(e)=>closeAll(e)}>
       <div className='flex justify-between h-16 items-center'> 
         <span onClick={()=>navigate("/")}
-         className='ml-5 font-bold text-red-500 text-3xl cursor-pointer'>Travell App</span>
+         className='ml-5 font-bold text-red-500 text-3xl cursor-pointer'>Travel App</span>
         <div className='flex'>
         <div onClick={(e)=>heandleSearchClick(e) }
          className={`relative searchContainer border-1 h-10 rounded-sm ${checkInDate && checkOutDate ?"w-[25vw]":"w-90"}  flex justify-between items-center gap-1 cursor-pointer  bg-white`}>
